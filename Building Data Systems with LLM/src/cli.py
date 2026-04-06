@@ -3,11 +3,11 @@
 import sqlite3
 from pathlib import Path
 
-from data_loader import DataLoader
-from schema_manager import SchemaManager
-from validator import SQLValidator
-from query_service import QueryService
-from llm_adapter import build_llm_adapter
+from .data_loader import DataLoader
+from .schema_manager import SchemaManager
+from .validator import SQLValidator
+from .query_service import QueryService
+from .llm_adapter import build_llm_adapter
 
 
 DB_PATH = Path("data/app.db")
