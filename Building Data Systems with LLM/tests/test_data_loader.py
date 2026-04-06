@@ -51,7 +51,7 @@ def test_normalize_column_name_basic(loader):
 
 
 def test_normalize_column_name_removes_special_characters(loader):
-    assert loader.normalize_column_name("Revenue ($)") == "revenue_"
+    assert loader.normalize_column_name("Revenue ($)") == "revenue"
 
 
 def test_normalize_column_name_prefixes_digit_start(loader):

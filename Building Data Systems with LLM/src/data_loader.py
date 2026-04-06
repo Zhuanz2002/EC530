@@ -42,6 +42,7 @@ class DataLoader:
         normalized = re.sub(r"\s+", "_", normalized)
         normalized = re.sub(r"[^a-z0-9_]", "_", normalized)
         normalized = re.sub(r"_+", "_", normalized)
+        normalized = normalized.strip("_")
 
         if not normalized:
             raise ValueError("A column name became empty after normalization.")
