@@ -1,3 +1,4 @@
-﻿pandas
+﻿Python 3.10+
+SQLite (included with Python)
+pandas
 pytest
-openai
