@@ -1,0 +1,5 @@
+[
+  {"path": "images/city_001.jpg", "source": "camera_A"},
+  {"path": "images/street_002.jpg", "source": "camera_B"},
+  {"path": "images/park_003.jpg", "source": "camera_A"}
+]

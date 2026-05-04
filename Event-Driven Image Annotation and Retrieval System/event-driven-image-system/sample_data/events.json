@@ -1,0 +1,24 @@
+[
+  {
+    "type": "publish",
+    "topic": "image.submitted",
+    "event_id": "evt_sample_001",
+    "timestamp": "2026-04-07T14:33:00Z",
+    "payload": {
+      "image_id": "img_sample_001",
+      "path": "images/city_001.jpg",
+      "source": "camera_A"
+    }
+  },
+  {
+    "type": "publish",
+    "topic": "image.submitted",
+    "event_id": "evt_sample_002",
+    "timestamp": "2026-04-07T14:34:00Z",
+    "payload": {
+      "image_id": "img_sample_002",
+      "path": "images/street_002.jpg",
+      "source": "camera_B"
+    }
+  }
+]
